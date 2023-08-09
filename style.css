@@ -1,0 +1,909 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html, * {margin: 0;padding: 0;}
+a, p{font-family: 'Poppins', sans-serif;}
+.wrapper{
+    width: 100%;
+    margin: auto;
+
+}
+.container{
+    width: 100%;
+    min-height: 500px;
+    background-color: white;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 822px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("bg-image.png");
+}
+.menu{
+    min-width: 1360px;
+    height: 48px;
+    display: flex;
+    margin-top: 32px;
+    margin-left: 279px;
+}
+.logo{
+    width: 87px;
+    height: 35px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("logo.png");
+}
+.main{
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 16px;
+    
+    text-decoration: none;
+    margin-left: 147px;
+    margin-top: 12px;
+}
+.hotel{
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 16px;
+    
+    text-decoration: none;
+    margin-left: 48px;
+    margin-top: 12px;
+}
+.restorans{
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 16px;
+    
+    text-decoration: none;
+    margin-left: 48px;
+    margin-top: 12px;
+}
+.tours{
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 16px;
+    
+    text-decoration: none;
+    margin-left: 48px;
+    margin-top: 12px;
+}
+.destin{
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 16px;
+    
+    text-decoration: none;
+    margin-left: 48px;
+    margin-top: 12px;
+}
+.activities{
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 16px;
+    
+    text-decoration: none;
+    margin-left: 48px;
+    margin-top: 12px;
+}
+.contact{
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 16px;
+    
+    text-decoration: none;
+    margin-left: 48px;
+    margin-top: 12px;
+}
+.accaunt{
+    width: 170px;
+    height: 48px;
+    display: flex;
+    margin-left: 123px;
+}
+.hello-name{
+    width: 122px;
+    height: 48px;
+    margin-top: 12px;
+
+}
+.hello{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    
+    color: lightgray;
+    margin-left: 60px;
+
+}
+.name{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: medium;
+    font-size: 14px;
+    width: 122px; 
+}
+.avatar{
+    width: 48px;
+    height: 48px;
+    background-image: url("avatar.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 12px;
+}
+.under-menu{
+    width: 1060px;
+    height: 166px;
+    margin-top: 184px;
+    margin-left: 427px;
+}
+.discover{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+.button{
+    width: 338px;
+    height: 72px;
+    border-radius: 12px;
+    background-color: #7B61FF;
+    margin-left: 363px;
+    margin-top: 32px;
+}
+.threed{
+    font-size: 18px;
+    font-weight: medium;
+    color: white;
+    margin-left: 56px;
+    padding-top: 22px;
+}
+.buttom-box{
+    width: 1140px;
+    height: 72px;
+    border-radius: 12px;
+    background-color: white;
+    margin-top: 184px;
+    margin-left: 389px;
+    display: flex;
+}
+.location{
+    width: 300px;
+    height: 72px;
+    display: flex;
+}
+.img-box{
+    width: 24px;
+    height: 24px;
+    background-image: url("icon.png");
+    margin-top: 24px;
+    margin-left: 16px;
+}
+.text-location{
+    width: 238px;
+    height: 40px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.activity{
+    display: flex;
+}
+.img-box-activ{
+    width: 24px;
+    height: 24px;
+    background-image: url("Group (1).png");
+    margin-top: 24px;
+    margin-left: 16px;
+}
+.text-activ{
+    width: 133px;
+    height: 40px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.when{
+    display: flex;
+}
+.img-box-when{
+    width: 24px;
+    height: 24px;
+    background-image: url("Group (2).png");
+    margin-top: 24px;
+    margin-left: 82px;
+}
+.text-when{
+    width: 133px;
+    height: 40px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.guests{
+    display: flex;
+}
+.img-box-gue{
+    width: 24px;
+    height: 24px;
+    background-image: url("Group (3).png");
+    margin-top: 24px;
+    margin-left: 110px;
+}
+.text-gue{
+    width: 133px;
+    height: 40px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.name-location, .name-activ, .name-when, .name-gue{
+    color: lightgray;
+    font-size: 14px;
+}
+.text-name-location, .text-name-activ, .text-name-when, .text-name-gue{
+    color: black;
+    font-size: 16px;
+}
+.search{
+    width: 60px;
+    height: 60px;
+    margin-left: 45px ;
+    margin-top: 6px;
+    background-image: url("Icon left (1).png");
+}
+.content{
+    width: 100%;
+    height: 3134px;
+}
+.popular{
+    width: 100%;
+    height: 464px;
+    background-color: white;
+}
+.top{
+    width: 1360px;
+    height: 112px;
+    margin-left: 279px;
+    margin-top: 120px;
+    display: flex;
+}
+.name-of-box{
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.view-all-pop{
+    width: 115px;
+    height: 40px;
+    margin-left: 928px;
+    margin-top: 4px;
+    background-image: url("Icon right (2).png");
+}
+.cards-pop{
+    margin-top: 64px;
+    display: flex;
+    width: 1360px;
+    height: 232px;
+}
+.california{
+    width: 200px;
+    height: 232px;
+    margin-left: 279px;
+}
+.img-calif{
+    width: 200px;
+    height: 180px;
+    background-image: url("img (16).png");
+}
+.name-calif{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.where-name{
+    font-size: 14px;
+    color: lightgray;    
+}
+.arizona{
+    margin-left: 32px;
+}
+.img-ariz{
+    width: 200px;
+    height: 180px;
+    background-image: url("img (1).png");
+}
+.name-ariz{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.where-name{
+    font-size: 14px;
+    color: lightgray;    
+}
+.florida{
+    margin-left: 32px;
+}
+.img-florid{
+    width: 200px;
+    height: 180px;
+    background-image: url("img (2).png");
+}
+.name-florid{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.where-name{
+    font-size: 14px;
+    color: lightgray;    
+}
+.arizona-tucson{
+    margin-left: 32px;
+}
+.img-ariz-tuc{
+    width: 200px;
+    height: 180px;
+    background-image: url("img (3).png");
+}
+.name-ariz-tuc{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.where-name{
+    font-size: 14px;
+    color: lightgray;    
+}
+.michigan{
+    margin-left: 32px;
+}
+.img-mich{
+    width: 200px;
+    height: 180px;
+    background-image: url("img (4).png");
+}
+.name-mich{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.where-name{
+    font-size: 14px;
+    color: lightgray;    
+}
+.spain{
+    margin-left: 32px;
+}
+.img-spain{
+    width: 200px;
+    height: 180px;
+    background-image: url("img (5).png");
+}
+.name-spain{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.where-name{
+    font-size: 14px;
+    color: lightgray;    
+}
+.hotels{
+    width: 100%;
+    height: 678px;
+    background-color: white;
+}
+.top{
+    width: 1360px;
+    height: 112px;
+    display: flex;
+    margin-left: 279px;
+}
+.name-of-box-hot{
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+.view-all-hot{
+    width: 179px;
+    height: 40px;
+    background-image: url("Icon right (1).png");
+    margin-left: 836px;
+}
+.cards-hotels{
+    width: 1360px;
+    height: 446px;
+    display: flex;
+    margin-left: 279px;
+}
+.salerno{
+    width: 316px;
+    height: 446px;
+
+}
+.img-salerno{
+    width: 316px;
+    height: 380px;
+    background-image: url("img.png");
+}
+.name-salerno{
+    color: #000;
+    font-size: 16px;
+}
+.photo-where{
+    width: 100%;
+    height: 20px;
+    background-image: url("Frame 2.png");
+}
+.lake-como{
+    width: 316px;
+    height: 446px;
+    margin-left: 32px;
+
+}
+.img-lake{
+    width: 316px;
+    height: 380px;
+    background-image: url("img (8).png");
+}
+.name-lake{
+    color: #000;
+    font-size: 16px;
+}
+.photo-where{
+    width: 100%;
+    height: 20px;
+    background-image: url("Frame 2 (1).png");
+}
+.udaipur{
+    width: 316px;
+    height: 446px;
+    margin-left: 32px;
+
+}
+.img-udaipur{
+    width: 316px;
+    height: 380px;
+    background-image: url("img (7).png");
+}
+.name-udaipur{
+    color: #000;
+    font-size: 16px;
+}
+.photo-where{
+    width: 100%;
+    height: 20px;
+    background-image: url("Frame 2 (2).png");
+}
+.los-angeles{
+    width: 316px;
+    height: 446px;
+    margin-left: 32px;
+
+}
+.img-angeles{
+    width: 316px;
+    height: 380px;
+    background-image: url("img (6).png");
+}
+.name-angeles{
+    color: #000;
+    font-size: 16px;
+}
+.photo-where{
+    width: 100%;
+    height: 20px;
+    background-image: url("Frame 2 (3).png");
+}
+.tips{
+    width: 100%;
+    height: 612px;
+    background-color: white;
+    
+}
+.top{
+    width: 1360px;
+    height: 40px;
+    display: flex;
+}
+.name-of-tip{
+    font-size: 32px;
+    font-weight: bold;
+}
+.view-all{
+    width: 179px;
+    height: 40px;
+    background-image: url("Icon right (1).png");
+    margin-left: 756px;
+}
+.tips-cards{
+    margin-top: 64px;
+    display: flex;
+    width: 1360px;
+    height: 380px;
+}
+.east{
+    width: 664px;
+    height: 380px;
+    display: flex;
+    margin-left: 279px;
+}
+.img-east{
+    width: 316px;
+    height: 380px;
+    background-image: url("img (9).png");
+}
+.east-text{
+    width: 316px;
+    height: 380px;
+    margin-left: 32px;
+}
+.east-name{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: left;
+}
+.text-of-east{
+    margin-top: 16px;
+    text-align: left;
+    font-size: 16px;
+    color: gray;
+    text-align: left;
+}
+.buttom-tip-box{
+    margin-top: 84px;
+    width: 100%;
+    height: 16px;
+    background-image: url("post info (1).png");
+}
+.brooklin{
+    width: 664px;
+    height: 380px;
+    display: flex;
+    margin-left: 32 px;
+}
+.img-brooklin{
+    width: 316px;
+    height: 380px;
+    background-image: url("img(10).png");
+}
+.brooklin-text{
+    width: 316px;
+    height: 380px;
+    margin-left: 32px;
+}
+.brooklin-name{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: left;
+}
+.text-of-brooklin{
+    margin-top: 16px;
+    text-align: left;
+    font-size: 16px;
+    color: gray;
+    text-align: left;
+}
+.buttom-tip-brooklin{
+    margin-top: 84px;
+    width: 100%;
+    height: 16px;
+    background-image: url("post info.png");
+}
+.activities{
+    width: 100%;
+    height: 652px;
+}
+.top{
+    width: 1360px;
+    height: 40px;
+    display: flex;
+}
+.name-of-activities{
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+}
+.view-all-act{
+    width: 179px;
+    height: 40px;
+    background-image: url("Icon right (1).png");
+    margin-left: 961px;
+}
+.activities-card{
+    margin-top: 64px;
+    width: 1360px;
+    height: 420px;
+    display: flex;
+    margin-left: 279px;
+}
+.sailing{
+    width: 316px;
+    height: 420px;
+}
+.img-activities-sailing{
+    width: 316px;
+    height: 380px;
+    background-image: url("img (15).png");
+}
+.name-activities-sailing{
+    margin-top: 16px;
+    color: #000;
+}
+.climbing{
+    margin-left: 32px;
+    width: 316px;
+    height: 420px;
+}
+.img-activities-climbing{
+    width: 316px;
+    height: 380px;
+    background-image: url("img (12).png");
+}
+.name-activities-climbing{
+    margin-top: 16px;
+    color: #000;
+}
+.skiing{
+    margin-left: 32px;
+    width: 316px;
+    height: 420px;
+}
+.img-activities-skiing{
+    width: 316px;
+    height: 380px;
+    background-image: url("img (13).png");
+}
+.name-activities-skiing{
+    margin-top: 16px;
+    color: #000;
+}
+.hiking{
+    margin-left: 32px;
+    width: 316px;
+    height: 420px;
+}
+.img-activities-hiking{
+    width: 316px;
+    height: 380px;
+    background-image: url("img (14).png");
+}
+.name-activities-hiking{
+    margin-top: 16px;
+    color: #000;
+}
+.about-us{
+    width: 100%;
+    height: 608px;
+    display: flex;
+}
+.text-about-us{
+    width: 548px;
+    height: 312px;
+    
+    margin-left: 395px;
+}
+.name-about-us{
+    margin-top: 88px;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.under-text-about{
+    width: 548px;
+    height: 160px;
+    margin-top: 32px;
+    font-size: 16px;
+    color: gray;
+}
+.button-about-us{
+    width: 164px;
+    height: 40px;
+    background-image: url("Icon right.png");
+}
+.img-about-us{
+    width:548px ;
+    height: 488px;
+    background-image: url("image 23.png");
+    border-radius: 24px;
+    margin-left: 32px;
+}
+.footer{
+    width: 100%;
+    height: 424px;
+    background-color: #f9f9f9;
+    margin-top: 240px;
+}
+.this-footer{
+    width: 1376px;
+    height: 184px;
+    margin-top: 120px;
+    margin-left: 271px;
+    display: flex;
+}
+.footer-messengers{
+    width: 355px;
+    height: 156px;
+}
+.footer-logo{
+    margin-top: 120px;
+    width: 88px;
+    height: 36px;
+    background-image: url("logoblack.png");
+}
+.footer-comment{
+    width: 355px;
+    height: 40px;
+    margin-top: 16px;
+    font-size: 14px;
+
+}
+.messengers{
+    width: 160px;
+    height: 32px;
+    margin-top: 32px;
+    display: flex;
+}
+.facebook{
+    width: 32px;
+    height: 32px;
+    background-image: url("Vector 1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.twitter{
+    margin-left: 32px;
+    width: 32px;
+    height: 32px;
+    background-image: url("twitter-fill.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.instagram{
+    margin-left: 32px;
+    width: 32px;
+    height: 32px;
+    background-image: url("instagram-fill.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.footer-about-us{
+    width: 106px;
+    height: 164px;
+    margin-left: 64px;
+    margin-top: 120px;
+}
+.top-footer-about{
+    font-size: 18px;
+}
+.footer-about{
+    margin-top: 12px;
+    color: gray;
+    text-decoration: none;
+}
+.footer-func{
+    margin-top: 12px;
+    color: gray;
+    text-decoration: none;
+}
+.footer-news{
+    margin-top: 12px;
+    color: gray;
+    text-decoration: none;
+}
+.footer-menu{
+    margin-top: 12px;
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-company{
+    max-width: 100px;
+    height: 184px;
+    margin-left: 64px;
+    margin-top: 120px;
+}
+.top-footer-company{
+    font-size: 18px;
+}
+.footer-why{
+    max-width: 87px;
+    margin-top: 12px;
+    color: gray;
+    text-decoration: none;
+}
+.footer-with{
+    width: 100%;
+    margin-top: 12px;
+    color: gray;
+    text-decoration: none;
+}
+.footer-chzv{
+    width: 100%;
+    margin-top: 12px;
+    color: gray;
+    text-decoration: none;
+}
+.footer-blog{
+    width: 100%;
+    margin-top: 12px;
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-help{
+    max-width: 126px;
+    height: 184px;
+    margin-left: 64px;
+    margin-top: 120px;
+}
+.top-footer-help{
+    font-size: 18px;
+}
+.footer-acaunt{
+    max-width: 87px;
+    margin-top: 12px;
+    color: gray;
+    text-decoration: none;
+}
+.footer-center-help{
+    width: 100%;
+    margin-top: 12px;
+    color: gray;
+    text-decoration: none;
+}
+.footer-feedback{
+    width: 100%;
+    margin-top: 12px;
+    color: gray;
+    text-decoration: none;
+}
+.footer-contact{
+    width: 100%;
+    margin-top: 12px;
+    color: gray;
+    text-decoration: none;
+}
+.footer-mail{
+    margin-top: 120px;
+    margin-left: 64px;
+    width: 388px;
+    height: 148px;
+
+}
+.sub{
+    width: 388px;
+    height: 56px;
+    font-size: 18px;
+}
+.footer-box{
+    display: flex;
+    margin-top: 16px;
+    width: 388px;
+    height: 72px;
+    background-color: white;
+    border-radius: 12px;
+}
+.mail-logo{
+    margin-top: 24px;
+    margin-left: 16px;
+    width: 24px;
+    height: 24px;
+    background-image: url("mail-line.png");
+}
+.name-of-mail{
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.your-mail{
+    font-size: 14px;
+    color: gray;
+}
+.mail-name{
+    font-size: 16px;
+    
+}
+.footer-button{
+    margin-left: 90px;
+    width: 72px;
+    height: 72px;
+    background-image: url("Icon left.png");
+}
